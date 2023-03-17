@@ -12,6 +12,7 @@ exports.handler = async (event) => {
     //      "Access-Control-Allow-Origin": "*",
     //      "Access-Control-Allow-Headers": "*"
     //  }, 
+    // Comment 1
         body: JSON.stringify('Hello from Lambda!'),
     };
 };
